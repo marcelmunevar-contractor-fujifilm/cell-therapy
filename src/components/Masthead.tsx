@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Header() {
   return (
     <div className="flex justify-between gap-32 p-16">
