@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Masthead from "@/components/Masthead";
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <main>
         <div className="container mx-auto">
           <Header />
+          <Masthead />
         </div>
       </main>
       <footer></footer>

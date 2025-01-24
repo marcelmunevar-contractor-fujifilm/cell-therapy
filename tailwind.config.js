@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      ffgreen: "#01916D",
+    },
   },
   plugins: [],
 };
