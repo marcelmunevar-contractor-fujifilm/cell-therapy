@@ -6,9 +6,10 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      ffgreen: "#01916D",
+    extend: {
+      colors: {
+        ffgreen: "#01916D",
+      },
     },
   },
   plugins: [],
