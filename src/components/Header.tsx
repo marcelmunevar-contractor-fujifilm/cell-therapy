@@ -1,14 +1,27 @@
 import Image from "next/image";
 
 export default function Header() {
+  const isProduction = process.env.NODE_ENV === "production";
+  const basePath = isProduction ? "/cell-therapy" : "";
+
   return (
     <header>
       <div className="flex justify-between items-center p-4 my-4">
         <div>
-          <Image src="/FF-Logo.svg" alt="Left Logo" width={192} height={52} />
+          <Image
+            src={`${basePath}/FF-Logo.svg`}
+            alt="Left Logo"
+            width={192}
+            height={52}
+          />
         </div>
         <div>
-          <Image src="/PFL-Logo.svg" alt="Right Logo" width={322} height={44} />
+          <Image
+            src={`${basePath}/PFL-Logo.svg`}
+            alt="Right Logo"
+            width={322}
+            height={44}
+          />
         </div>
       </div>
       <div
