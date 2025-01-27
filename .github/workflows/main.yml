@@ -29,6 +29,6 @@ jobs:
 
     - name: Upload build to server
       run: |
-        scp -r .next/ username@your-server:/path/to/your/nextjs-app
+        scp -r out/ username@your-server:/StageWP/lifesciences/cell-therapy
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
