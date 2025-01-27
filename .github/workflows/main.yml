@@ -3,32 +3,32 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - main
   pull_request:
     branches:
-      - main  # Trigger on pull requests targeting the main branch
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can choose another OS if necessary
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2  # Checks out your code from the repository
+      uses: actions/checkout@v2
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Specify the Node.js version to use
+        node-version: '18'  # Update this to '18' or '20' for compatibility with Next.js
 
     - name: Install dependencies
-      run: npm install  # Installs your app's dependencies
+      run: npm install
 
     - name: Build the app
-      run: npm run build  # Runs the build script to create the production build
+      run: npm run build
 
     - name: Upload build to server
       run: |
-        scp -r .next/ username@your-server:/path/to/your/nextjs-app  # Uploads build to server using SCP
+        scp -r .next/ username@your-server:/path/to/your/nextjs-app
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # Stores SSH key securely
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
