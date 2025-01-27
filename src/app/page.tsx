@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Masthead from "@/components/Masthead";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
           <Masthead />
         </div>
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
