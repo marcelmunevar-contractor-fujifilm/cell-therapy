@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 export default function Header() {
+  const isProduction = process.env.NODE_ENV === "production";
+  const basePath = isProduction ? "/cell-therapy" : "";
   return (
     <>
       <div className="flex flex-col lg:flex-row justify-between p-4 lg:p-12 mb-4">
@@ -15,7 +17,7 @@ export default function Header() {
       </div>
       <Image
         className="w-full p-4 mb-12"
-        src="/Hero-POV.png"
+        src={`${basePath}/Hero-POV.png`}
         width={300}
         height={300}
         alt=""
@@ -33,7 +35,7 @@ export default function Header() {
           <p className="uppercase mb-12">The power of partners</p>
           <Image
             className="w-full "
-            src="/Power-of-Partners.png"
+            src={`${basePath}/Power-of-Partners.png`}
             width={300}
             height={300}
             alt=""
