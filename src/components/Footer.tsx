@@ -5,18 +5,16 @@ export default function Footer() {
   const basePath = isProduction ? "/cell-therapy" : "";
   return (
     <footer className="bg-[#f6f7f6]">
-      
-      <div className="container mx-auto px-6">
-        <div className="bg-[#D6D6D6] h-px"></div>
-        
-        <div className="flex py-10">
+      <div className="flex p-6 container mx-auto">
+        <div className="border-t-2 border-[#e6e6e6] py-10">
           <Image
             src={`${basePath}/FF-Logo.svg`}
-            alt="Footer Logo"
-            width={150}
+            alt="Left Logo"
+            width={192}
             height={52}
           />
-          
+        </div>
+        <div className="border-t-2 border-[#e6e6e6] px-10 w-full py-10 ">
           <div className="flex flex-col md:flex-row mb-4">
             <div className="after:content-[''] after:border-r after:border-[#AEADAD] after:text-base">
               <a className="pr-4" href="#">
@@ -40,15 +38,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-xs">©FUJIFILM Holdings Corporation</div>
-
-          
-
         </div>
-
-      
       </div>
-    
-      
     </footer>
   );
 }
