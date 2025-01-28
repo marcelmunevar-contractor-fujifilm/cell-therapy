@@ -22,7 +22,7 @@ export default function Header() {
         height={300}
         alt=""
       />
-      <div className="flex flex-col md:flex-row justify-between mb-4">
+      <div className="flex flex-col md:flex-row justify-between mb-10">
         <div className="p-4 max-w-xs">
           <div
             className="w-36 h-1 bg-gradient-to-r from-transparent to-transparent mb-4"
