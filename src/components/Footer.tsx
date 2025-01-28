@@ -15,7 +15,7 @@ export default function Footer() {
           />
         </div>
         <div className="border-t-2 border-[#e6e6e6] px-10 w-full py-10">
-          <div className="text-base pb-3">
+          
             <ul className="flex flex-col md:flex-row md:gap-10">
               <li>
                 <a href="#">Privacy Policy</a>
@@ -30,7 +30,7 @@ export default function Footer() {
                 <a href="#">Cookie Settings</a>
               </li>
             </ul>
-          </div>
+          
           <div className="text-xs">©FUJIFILM Holdings Corporation</div>
         </div>
       </div>
