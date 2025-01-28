@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 
 import ImageCard from "@/components/ImageCard";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
 
