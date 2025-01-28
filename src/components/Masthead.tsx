@@ -32,7 +32,7 @@ export default function Header() {
               boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
             }}
           ></div>
-          <p className="uppercase mb-12">The power of partners</p>
+          <p className="uppercase mb-12 text-xl">The power of partners</p>
           <Image
             className="w-full "
             src={`${basePath}/Power-of-Partners.png`}
