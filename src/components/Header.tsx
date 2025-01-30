@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className="flex justify-between items-center p-5 my-5">
+      <div className="flex justify-between items-center  p-4 my-4 gap-8">
         <div>
           <Image
             src={`${basePath}/FF-Logo.svg`}
