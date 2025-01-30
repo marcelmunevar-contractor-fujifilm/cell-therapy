@@ -18,14 +18,14 @@ export default function Home() {
           <Masthead />
         </div>
 
-        <div className="bg-[#f6f7f6] p-6 ">
+        <div className="bg-[#f6f7f6] p-5 ">
 
           <h2 className="container mx-auto text-2xl xl:text-4xl xl:pt-4 font-semibold">Proven Partners Across the Cell Therapy Ecosystem</h2>
           <ImageCard>
           <div className="flex flex-col md:flex-row">
             <div className="p-5 xl:p-10 md:w-1/2">
               <h3 className="text-[22px] xl:text-3xl font-semibold pb-8">CDMO Services</h3>
-              <Image
+              <Image className="w-full md:w-80 xl:w-fit"
                 src={`${basePath}/CDMO-Services.png`}
                 width={500}
                 height={100}
@@ -43,7 +43,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row">
               <div className="p-5 xl:p-10 md:w-1/2">
                 <h3 className="text-[22px] xl:text-3xl font-semibold pb-8">Products / Tools</h3>
-                <Image
+                <Image className="w-full md:w-80 xl:w-fit" 
                   src={`${basePath}/Products-Tools.png`}
                   width={500}
                   height={100}
