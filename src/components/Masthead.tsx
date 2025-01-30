@@ -5,25 +5,24 @@ export default function Header() {
   const basePath = isProduction ? "/cell-therapy" : "";
   return (
     <>
-      <div className="flex flex-col lg:flex-row justify-between p-4 lg:p-12 mb-4">
-        <h1 className="text-5xl font-semibold mb-4 max-w-lg">
-          A <span className="text-ffgreen">Partner for Life</span>. Moving Cell
-          Therapy Forward.
+      <div className="flex flex-col md:flex-row justify-between p-4 lg:p-12 mb-4">
+        <h1 className="text-4xl md:text-5xl font-semibold mb-4 md:w-[496px]">
+          A <span className="text-ffgreen">Partner for Life</span>. Moving Cell Therapy Forward.
         </h1>
-        <p className="mb-4 text-xl max-w-md">
-          From discovery to commercialization, we advance cell therapies and
-          transform human health with our partners worldwide.
+        <p className=" text-lg md:text-base xl:text-xl md:w-[220px] xl:w-[420px]">
+          From discovery to commercialization, we advance cell therapies and transform human health with our partners worldwide.
         </p>
       </div>
       <Image
-        className="w-full p-4 mb-12"
+        className="w-full mb-10 md:mb-28"
         src={`${basePath}/Hero-POV.png`}
         width={300}
-        height={300}
+        height={100}
         alt=""
       />
-      <div className="flex flex-col md:flex-row justify-between mb-10">
-        <div className="p-4 max-w-xs">
+      <div className="flex flex-col md:flex-row md:mb-20">
+        
+        <div className="p-5 xl:p-10 md:w-1/4">
           <div
             className="w-36 h-1 bg-gradient-to-r from-transparent to-transparent mb-4"
             style={{
@@ -32,25 +31,25 @@ export default function Header() {
               boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
             }}
           ></div>
-          <p className="uppercase mb-12">The power of partners</p>
+          <p className="uppercase mb-6">The power of partners</p>
           <Image
             className="w-full "
             src={`${basePath}/Power-of-Partners.png`}
             width={300}
-            height={300}
+            height={100}
             alt=""
           />
         </div>
-        <div className="p-4">
-          <h2 className="text-3xl mb-4 max-w-lg">
+
+        <div className="p-5 xl:p-10 md:w-3/4 md:px-44">
+          <h2 className="text-2xl md:text-4xl mb-4">
             Trusted Solutions for Cell Therapy, End-to-end
           </h2>
-          <p className="text-xl mb-4 max-w-xl xl:mr-24">
-            Our technical experience and focus on innovative, future proofed
-            solutions, offer you a single-point solution across cell therapy
-            development and manufacturing.
+          <p className="mb-4 text-lg md:text-xs xl:text-xl">
+            Our technical experience and focus on innovative, future proofed solutions, offer you a single-point solution across cell therapy development and manufacturing.
           </p>
         </div>
+
       </div>
     </>
   );

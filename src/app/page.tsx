@@ -27,7 +27,7 @@ export default function Home() {
               <h3 className="text-[22px] xl:text-3xl font-semibold pb-8">CDMO Services</h3>
               <Image
                 src={`${basePath}/CDMO-Services.png`}
-                width={800}
+                width={500}
                 height={100}
                 alt="Your Image"
               />
