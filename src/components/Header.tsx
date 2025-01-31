@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header>
-      <div className="flex justify-between items-center p-4 my-4 gap-8">
+      <div className="flex justify-between items-center p-4 my-4 gap-16 sm:gap-8">
         <div>
           <Image
             src="/cell-therapy/FF-Logo.svg"
@@ -26,7 +26,6 @@ export default function Header() {
         style={{
           background:
             "linear-gradient(90deg, #00d164 0%, #00d164 5%, #00ac5a 9%, #008551 14%, #006c4b 18%, #006449 20%, #007a5b 29%, #008b68 38%, #01916d 45%, #00956b 51%, #00a168 56%, #00b663 62%, #00d35c 68%, #00f853 74%, #00ff52 75%, #96fffd 95%, #96fffd 100%)",
-          boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
         }}
       ></div>
     </header>

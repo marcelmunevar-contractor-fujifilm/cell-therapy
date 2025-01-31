@@ -33,7 +33,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-5 xl:p-10 md:w-1/2">
-                <p className="mb-4 text-lg md:text-xs xl:text-xl">
+                <p className="mb-4 text-lg md:text-sm xl:text-xl">
                   <a
                     href="https://fujifilmdiosynth.com/"
                     target="_blank"
@@ -53,7 +53,7 @@ export default function Home() {
                   clinical, late-phase clinical, regulatory approval, and
                   commercial production.{" "}
                 </p>
-                <p className="mb-4 text-lg md:text-xs xl:text-xl">
+                <p className="mb-4 text-lg md:text-sm xl:text-xl">
                   <a
                     href="https://www.fujifilmcdi.com/"
                     target="_blank"
@@ -87,7 +87,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-5 xl:p-10 md:w-1/2">
-                <p className="mb-4 text-lg md:text-xs xl:text-xl">
+                <p className="mb-4 text-lg md:text-sm xl:text-xl">
                   <a
                     href="https://www.irvinesci.com/"
                     target="_blank"
@@ -105,7 +105,7 @@ export default function Home() {
                   manufacturing operations all aimed at achieving faster to
                   market solutions and regulatory compliance.
                 </p>
-                <p className="mb-4 text-lg md:text-xs xl:text-xl">
+                <p className="mb-4 text-lg md:text-sm xl:text-xl">
                   FUJIFILM Irvine Scientific, Inc. also offers products
                   manufactured by{" "}
                   <a
@@ -121,7 +121,7 @@ export default function Home() {
                   growing research demand, we also provide tools to purify and
                   detect exosomes.
                 </p>
-                <p className="mb-4 text-lg md:text-xs xl:text-xl">
+                <p className="mb-4 text-lg md:text-sm xl:text-xl">
                   We are inspired every day to keep innovating to bring our
                   customers more of what they need for cell therapy development
                   from discovery to delivery.
