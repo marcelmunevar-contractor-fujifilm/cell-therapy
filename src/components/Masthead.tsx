@@ -1,27 +1,26 @@
 import Image from "next/image";
 
 export default function Header() {
-  const isProduction = process.env.NODE_ENV === "production";
-  const basePath = isProduction ? "/cell-therapy" : "";
   return (
     <>
       <div className="flex flex-col md:flex-row justify-between p-5 xl:p-12 mb-5">
         <h1 className="text-4xl md:text-5xl font-semibold mb-5 md:w-[496px]">
-          A <span className="text-ffgreen">Partner for Life</span>. Moving Cell Therapy Forward.
+          A <span className="text-ffgreen">Partner for Life</span>. Moving Cell
+          Therapy Forward.
         </h1>
         <p className=" text-lg md:text-base xl:text-xl md:w-[420px] ">
-          From discovery to commercialization, we advance cell therapies and transform human health with our partners worldwide.
+          From discovery to commercialization, we advance cell therapies and
+          transform human health with our partners worldwide.
         </p>
       </div>
-      <Image 
+      <Image
         className="w-full mb-10 md:mb-20 md:p-5 "
-        src={`${basePath}/Hero-POV.png`}
+        src="/cell-therapy/Hero-POV.png"
         width={300}
         height={100}
         alt=""
       />
       <div className="flex flex-col md:flex-row md:mb-20">
-        
         <div className="md:w-1/2 xl:w-1/3 p-5">
           <div
             className="w-36 h-1 bg-gradient-to-r from-transparent to-transparent mb-5"
@@ -34,7 +33,7 @@ export default function Header() {
           <p className="uppercase mb-5 text-xl">The power of partners</p>
           <Image
             className="w-full md:w-80 xl:w-fit"
-            src={`${basePath}/Power-of-Partners.png`}
+            src="/cell-therapy/Power-of-Partners.png"
             width={300}
             height={100}
             alt=""
@@ -46,10 +45,11 @@ export default function Header() {
             Trusted Solutions for Cell Therapy, End-to-end
           </h2>
           <p className="mb-5 text-lg md:text-xs xl:text-xl">
-            Our technical experience and focus on innovative, future proofed solutions, offer you a single-point solution across cell therapy development and manufacturing.
+            Our technical experience and focus on innovative, future proofed
+            solutions, offer you a single-point solution across cell therapy
+            development and manufacturing.
           </p>
         </div>
-
       </div>
     </>
   );
