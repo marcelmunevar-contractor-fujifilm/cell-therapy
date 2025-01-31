@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "Cell Therapy | Life Sciences | Fujifilm",
@@ -21,6 +22,7 @@ export default function RootLayout({
         <link rel="icon" href="/cell-therapy/favicon.png" type="image/png" />
       </head>
       <body className="font-roboto">{children}</body>
+      <GoogleAnalytics gaId="G-7B59VYKCVX" />
     </html>
   );
 }
