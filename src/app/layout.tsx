@@ -3,8 +3,9 @@ import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  title: "Cell Therapy | Life Sciences | Fujifilm",
-  description: "",
+  title: "Fujifilm Partners for Life Cell Therapy Landing Page",
+  description:
+    "Learn how Fujifilm Partners for Life companies advance cell therapies and transform human health with our partners worldwide, from discovery to commercialization.",
 };
 
 export default function RootLayout({

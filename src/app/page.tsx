@@ -27,9 +27,9 @@ export default function Home() {
                 <Image
                   className="w-full md:w-80 xl:w-fit"
                   src="/cell-therapy/CDMO-Services.png"
-                  width={500}
-                  height={100}
-                  alt="Your Image"
+                  width={568}
+                  height={230}
+                  alt="Two workers wearing PPE stand in front of a white background, looking at a piece of laboratory equipment."
                 />
               </div>
               <div className="p-5 xl:p-10 md:w-1/2">
@@ -81,9 +81,9 @@ export default function Home() {
                 <Image
                   className="w-full md:w-80 xl:w-fit"
                   src="/cell-therapy/Products-Tools.png"
-                  width={500}
-                  height={100}
-                  alt="Your Image"
+                  width={568}
+                  height={230}
+                  alt="A man wearing a white coat and black gloves works with a piece of laboratory equipment."
                 />
               </div>
               <div className="p-5 xl:p-10 md:w-1/2">

@@ -37,7 +37,11 @@ export default function Footer() {
               </a>
             </div>
             <div className="text-sm xl:text-[18px] pb-8 md:pb-4">
-              <a className="md:px-4" href="#">
+              <a
+                className="md:px-4"
+                href="https://form.jotform.com/250336118551047"
+                target="_blank"
+              >
                 Contact us
               </a>
             </div>

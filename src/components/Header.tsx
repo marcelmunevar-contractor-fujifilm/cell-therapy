@@ -7,7 +7,7 @@ export default function Header() {
         <div>
           <Image
             src="/cell-therapy/FF-Logo.svg"
-            alt="Left Logo"
+            alt="Fujifilm Logo"
             width={192}
             height={52}
           />
@@ -15,7 +15,7 @@ export default function Header() {
         <div>
           <Image
             src="/cell-therapy/PFL-Logo.svg"
-            alt="Right Logo"
+            alt="Partners for Life logo"
             width={322}
             height={44}
           />

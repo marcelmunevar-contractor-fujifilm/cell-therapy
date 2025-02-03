@@ -16,16 +16,16 @@ export default function Header() {
       <Image
         className="w-full mb-10 xl:mb-20 md:p-5 hidden sm:block"
         src="/cell-therapy/Hero-POV.png"
-        width={300}
-        height={100}
-        alt=""
+        width={390}
+        height={281}
+        alt="Two workers wearing PPE stand in front of a white background, looking at a piece of laboratory equipment."
       />
       <Image
         className="w-full mb-10 xl:mb-20 md:p-5 block sm:hidden"
         src="/cell-therapy/Hero-POV-mobile.png"
-        width={300}
-        height={100}
-        alt=""
+        width={1496}
+        height={421}
+        alt="Two workers wearing PPE stand in front of a white background, looking at a piece of laboratory equipment."
       />
       <div className="flex flex-col md:flex-row md:mb-20 justify-between ">
         <div className="md:w-1/2 xl:w-1/3 p-5">
@@ -40,9 +40,9 @@ export default function Header() {
           <Image
             className="w-full md:w-80 xl:w-fit"
             src="/cell-therapy/Power-of-Partners.png"
-            width={300}
-            height={100}
-            alt=""
+            width={447}
+            height={200}
+            alt="Two workers wearing white coats, blue aprons, and PPE work with equipment in a laboratory."
           />
         </div>
 
