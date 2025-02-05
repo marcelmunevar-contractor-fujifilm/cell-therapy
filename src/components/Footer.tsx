@@ -42,7 +42,7 @@ export default function Footer() {
                 href="https://form.jotform.com/250336118551047"
                 target="_blank"
               >
-                Contact us
+                Contact Us
               </a>
             </div>
             <div className="text-sm xl:text-[18px] pb-8 md:pb-4 hidden">
