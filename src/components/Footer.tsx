@@ -11,7 +11,7 @@ export default function Footer() {
         <Image
           className="mb-8 mt-1"
           src="/cell-therapy/FF-Logo.svg"
-          alt="Left Logo"
+          alt="Fujifilm Value From Innovation logo"
           width={150}
           height={52}
         />
