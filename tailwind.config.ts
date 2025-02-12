@@ -11,7 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        ffgreen: "#01916D",
+        ffk60: "#014937",
       },
     },
   },

@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <div className="flex flex-col md:flex-row justify-between p-5 xl:p-12 mb-4 gap-8">
         <h1 className="text-4xl  xl:text-5xl font-semibold sm:w-[420px] lg:w-[400px] xl:w-[520px]">
-          A <span className="text-ffgreen">Partner for Life</span>. Moving Cell
+          A <span className="text-ffk60">Partner for Life</span>. Moving Cell
           Therapy Forward.
         </h1>
         <p className=" text-lg xl:text-xl md:mr-10  xl:mr-20 md:w-[400px] xl:w-[520px]">

@@ -37,7 +37,7 @@ export default function Home() {
                   <a
                     href="https://fujifilmdiosynth.com/"
                     target="_blank"
-                    className="text-[#01916D] underline"
+                    className="text-ffk60 underline"
                   >
                     FUJIFILM Diosynth Biotechnologies
                   </a>{" "}
@@ -57,7 +57,7 @@ export default function Home() {
                   <a
                     href="https://www.fujifilmcdi.com/"
                     target="_blank"
-                    className="text-[#01916D] underline"
+                    className="text-ffk60 underline"
                   >
                     FUJIFILM Cellular Dynamics
                   </a>{" "}
@@ -91,7 +91,7 @@ export default function Home() {
                   <a
                     href="https://www.irvinesci.com/"
                     target="_blank"
-                    className="text-[#01916D] underline"
+                    className="text-ffk60 underline"
                   >
                     FUJIFILM Irvine Scientific, Inc.
                   </a>{" "}
@@ -111,7 +111,7 @@ export default function Home() {
                   <a
                     href="https://labchem-wako.fujifilm.com/us/index.html"
                     target="_blank"
-                    className="text-[#01916D] underline"
+                    className="text-ffk60 underline"
                   >
                     FUJIFILM Wako Pure Chemical Corporation
                   </a>

@@ -7,7 +7,7 @@ export default function Header() {
         <div>
           <Image
             src="/cell-therapy/FF-Logo.svg"
-            alt="Fujifilm Logo"
+            alt="Fujifilm Value From Innovation Logo"
             width={192}
             height={52}
           />
