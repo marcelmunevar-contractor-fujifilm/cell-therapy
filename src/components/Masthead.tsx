@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Vimeo from "./Vimeo";
 
 export default function Header() {
   return (
@@ -16,16 +17,18 @@ export default function Header() {
       <Image
         className="w-full mb-10 xl:mb-20 md:p-5 hidden sm:block"
         src="/cell-therapy/Hero-POV.png"
-        width={390}
-        height={281}
+        width={1719}
+        height={484}
         alt="Two workers wearing PPE stand in front of a white background, looking at a piece of laboratory equipment."
+        loading="eager"
       />
       <Image
         className="w-full mb-10 xl:mb-20 md:p-5 block sm:hidden"
         src="/cell-therapy/Hero-POV-mobile.png"
-        width={1496}
-        height={421}
+        width={390}
+        height={281}
         alt="Two workers wearing PPE stand in front of a white background, looking at a piece of laboratory equipment."
+        loading="eager"
       />
       <div className="flex flex-col md:flex-row md:mb-20 justify-between ">
         <div className="md:w-1/2 xl:w-1/3 p-5">
@@ -36,14 +39,8 @@ export default function Header() {
                 "linear-gradient(90deg, #00d164 0%, #00d164 5%, #00ac5a 9%, #008551 14%, #006c4b 18%, #006449 20%, #007a5b 29%, #008b68 38%, #01916d 45%, #00956b 51%, #00a168 56%, #00b663 62%, #00d35c 68%, #00f853 74%, #00ff52 75%, #96fffd 95%, #96fffd 100%)",
             }}
           ></div>
-          <p className="uppercase mb-10 text-xl">The power of partners</p>
-          <Image
-            className="w-full md:w-80 xl:w-fit"
-            src="/cell-therapy/Power-of-Partners.png"
-            width={447}
-            height={200}
-            alt="Two workers wearing white coats, blue aprons, and PPE work with equipment in a laboratory."
-          />
+          <p className="uppercase mb-5 text-xl">The power of partners</p>
+          <Vimeo />
         </div>
 
         <div className="p-5">

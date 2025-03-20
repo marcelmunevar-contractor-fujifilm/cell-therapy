@@ -42,7 +42,7 @@ export default function Home() {
                     FUJIFILM Diosynth Biotechnologies
                   </a>{" "}
                   offers cell therapy expertise and focus on innovative,
-                  future-proofed solutions, we partner with you to address the
+                  future-proofed solutions. We partner with you to address the
                   challenges of complex cell therapy development and
                   manufacturing scalability. In an industry where rapidly
                   generating clinical data can be the difference between
@@ -61,13 +61,15 @@ export default function Home() {
                   >
                     FUJIFILM Cellular Dynamics
                   </a>{" "}
-                  offers contract development and GMP manufacturing of
-                  clinical-grade human induced pluripotent stem cells (iPSC) to
-                  advance your cell therapy program. Our new state-of-the-art
-                  facility is designed and built to support the development and
-                  GMP compliant manufacture of cell therapy products for early
-                  phase clinical trials. The facility contains all the necessary
-                  features to advance cell therapy products into the clinic.{" "}
+                  offers world-leading expertise to advance a wide range of
+                  induced pluripotent stem cell (iPSC)-derived cell
+                  therapeutics. Having supported multiple drug products from
+                  early development to GMP manufacturing, release testing and
+                  eventual regulatory submission, our experience provides
+                  partners a one-stop shop for CDMO services in iPSC therapies.
+                  Our new state-of-the-art facility is designed and built to
+                  support the development and GMP compliant manufacture of cell
+                  therapy products.
                 </p>
               </div>
             </div>
@@ -80,7 +82,7 @@ export default function Home() {
                 </h3>
                 <Image
                   className="w-full md:w-80 xl:w-fit"
-                  src="/cell-therapy/Products-Tools.png"
+                  src="/cell-therapy/Products-Tools-v2.png"
                   width={568}
                   height={230}
                   alt="A man wearing a white coat and black gloves works with a piece of laboratory equipment."
