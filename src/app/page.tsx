@@ -25,7 +25,7 @@ export default function Home() {
                   CDMO Services
                 </h3>
                 <Image
-                  className="w-full xl:w-fit"
+                  className="w-full"
                   src="/cell-therapy/CDMO-Services.png"
                   width={568}
                   height={230}
@@ -81,7 +81,7 @@ export default function Home() {
                   Products / Tools
                 </h3>
                 <Image
-                  className="w-full xl:w-fit"
+                  className="w-full"
                   src="/cell-therapy/Products-Tools-v2.png"
                   width={568}
                   height={230}

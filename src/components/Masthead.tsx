@@ -31,7 +31,7 @@ export default function Header() {
         loading="eager"
       />
       <div className="flex flex-col md:flex-row md:mb-20 justify-between ">
-        <div className="md:w-1/2 xl:w-1/3 p-5">
+        <div className="md:w-1/2 p-5">
           <div
             className="w-36 h-1 bg-gradient-to-r from-transparent to-transparent mb-5"
             style={{
@@ -39,15 +39,17 @@ export default function Header() {
                 "linear-gradient(90deg, #00d164 0%, #00d164 5%, #00ac5a 9%, #008551 14%, #006c4b 18%, #006449 20%, #007a5b 29%, #008b68 38%, #01916d 45%, #00956b 51%, #00a168 56%, #00b663 62%, #00d35c 68%, #00f853 74%, #00ff52 75%, #96fffd 95%, #96fffd 100%)",
             }}
           ></div>
-          <p className="uppercase mb-5 text-xl">The power of partners</p>
+          <p className="uppercase mb-4 text-xl lg:text-2xl">
+            The power of partners
+          </p>
           <Vimeo />
         </div>
 
-        <div className="p-5">
-          <h2 className="text-2xl xl:text-4xl mb-5 lg:mr-24 max-w-xl">
+        <div className="md:w-1/2 p-5">
+          <h2 className="text-2xl xl:text-4xl mb-5 max-w-xl">
             Trusted Solutions for Cell Therapy, End&#8209;to&#8209;end
           </h2>
-          <p className="mb-5 text-lg md:text-sm xl:text-xl lg:mr-24 max-w-xl">
+          <p className="mb-5 text-lg md:text-sm xl:text-xl max-w-xl">
             Our technical experience and focus on innovative, future proofed
             solutions, offer you a single-point solution across cell therapy
             development and manufacturing.
